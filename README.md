@@ -151,3 +151,5 @@ python eval/eval.py --reference_dir [reference image dir] --base_dir [generation
 
 Copyright The Paper Authors. All Rights Reserved. You may not modify, distribute, or use this software for any purpose beyond the review process.
 
+The repository builds on top of HuggingFace, please refer to their license within the code.
+
