@@ -1,7 +1,7 @@
 # IMMA: Immunizing text-to-image Models against Malicious Adaptation
 
 <p align="center">
-  <img src="assets/teaser.jpg">
+  <img src="assets/teaser.jpg" width="400"/>
 </p>
 Advancements in text-to-image models and fine-tuning methods have led to the increasing risk of malicious adaptation, i.e., fine-tuning to generate harmful/unauthorized content. Recent works, e.g., Glaze or MIST, have developed data-poisoning techniques which protect the data against adaptation methods. In this work, we consider an alternative paradigm for protection. We propose to "immunize" the model by learning model parameters that are difficult for the adaptation methods when fine-tuning malicious content; in short IMMA.
 Empirical results show IMMA's effectiveness against malicious adaptations, including mimicking the artistic style and learning of inappropriate/unauthorized content, over three adaptation methods: LoRA, Textual-Inversion, and DreamBooth.
@@ -9,7 +9,7 @@ Empirical results show IMMA's effectiveness against malicious adaptations, inclu
 ## Method Overview
 
 <p align="center">
-  <img src="assets/pipeline.jpg">
+  <img src="assets/pipeline.jpg" width="800">
 </p>
 
 IMMA takes in pre-trained model weights, images and corresponding prompts for training. The output if IMMA is immunized model weights. **After IMMA training**, the immunized model functions as the new pre-trained model for the further fine-tuning adaptation.
