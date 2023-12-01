@@ -8,7 +8,7 @@ Department of Computer Science, Purdue University
 ## Overview
 
 <p align="center">
-  <img src="assets/pipeline.jpg" width="650">
+  <img src="assets/pipeline.png" width="650">
 </p>
 
 IMMA takes in pre-trained model weights, images, and corresponding prompts for training. The output of IMMA is immunized model weights. **After IMMA training**, the immunized model functions as the new pre-trained model for further fine-tuning adaptation.
@@ -166,7 +166,7 @@ If you find our work or any of our materials useful, please cite our paper:
 
 ## License
 
-Copyright The Paper Authors. All Rights Reserved. You may not modify, distribute, or use this software for any purpose beyond the review process.
+Copyright The Paper Authors. All Rights Reserved.
 
 The repository builds on top of HuggingFace examples, please refer to their license within the code.
 
