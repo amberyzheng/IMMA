@@ -1,6 +1,9 @@
 # IMMA: Immunizing text-to-image Models against Malicious Adaptation
+### [Project Page](https://zhengyjzoe.github.io/imma/) | [Paper](https://arxiv.org/abs/2311.18815)
 
-This repository contains code for the submission "IMMA: Immunizing text-to-image Models against Malicious Adaptation".
+[Yijia Zheng](https://zhengyjzoe.github.io/) and [Raymond A. Yeh](https://raymond-yeh.com/)
+
+Purdue University
 
 ## Overview
 
@@ -144,6 +147,21 @@ To evaluate IMMA's effect, we compute CLIP, DINO, and LPIPS for the inference im
 
 ```
 python eval/eval.py --reference_dir [reference image dir] --base_dir [generation w/o IMMA dir] --imma_dir [generation w/ IMMA dir] --save_dir [csv save dir] --metric [choose from clip, dino and lpips]
+```
+
+## Citation
+
+If you find our work or any of our materials useful, please cite our paper:
+
+```
+@misc{zheng2023imma,
+      title={IMMA: Immunizing text-to-image Models against Malicious Adaptation}, 
+      author={Yijia Zheng and Raymond A. Yeh},
+      year={2023},
+      eprint={2311.18815},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## License
