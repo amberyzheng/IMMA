@@ -166,7 +166,7 @@ If you find our work or any of our materials useful, please cite our paper:
 
 ## License
 
-Copyright The Paper Authors. All Rights Reserved.
+This work is licensed under the Apache-2.0 license.
 
 The repository builds on top of HuggingFace examples, please refer to their license within the code.
 
