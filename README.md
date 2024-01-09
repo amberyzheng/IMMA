@@ -1,7 +1,7 @@
 # IMMA: Immunizing text-to-image Models against Malicious Adaptation
 ### [Project Page](https://zhengyjzoe.github.io/imma/) | [Paper](https://arxiv.org/abs/2311.18815)
 
-**[Yijia Zheng](https://zhengyjzoe.github.io/), [Raymond A. Yeh](https://raymond-yeh.com/)**
+**[Amber Yijia Zheng](https://amberyzheng.com/), [Raymond A. Yeh](https://raymond-yeh.com/)**
 
 Department of Computer Science, Purdue University
 
