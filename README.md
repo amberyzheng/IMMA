@@ -5,6 +5,8 @@
 
 Department of Computer Science, Purdue University
 
+In ECCV 2024.
+
 ## Overview
 
 <p align="center">
