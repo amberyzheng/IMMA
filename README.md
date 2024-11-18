@@ -156,13 +156,13 @@ python eval/eval.py --reference_dir [reference image dir] --base_dir [generation
 If you find our work or any of our materials useful, please cite our paper:
 
 ```
-@misc{zheng2023imma,
-      title={IMMA: Immunizing text-to-image Models against Malicious Adaptation}, 
-      author={Amber Yijia Zheng and Raymond A. Yeh},
-      year={2023},
-      eprint={2311.18815},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{zheng2025imma,
+  title={Imma: Immunizing text-to-image models against malicious adaptation},
+  author={Zheng, Amber Yijia and Yeh, Raymond A},
+  booktitle={European Conference on Computer Vision},
+  pages={458--475},
+  year={2025},
+  organization={Springer}
 }
 ```
 
