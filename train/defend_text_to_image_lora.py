@@ -26,8 +26,6 @@ import sys
 sys.path.append("..")
 sys.path.append(".")
 
-from utils import *
-
 import datasets
 import numpy as np
 import torch

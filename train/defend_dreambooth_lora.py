@@ -73,8 +73,6 @@ import sys
 sys.path.append("..")
 sys.path.append(".")
 
-from utils import *
-
 
 # Will error if the minimal version of diffusers is not installed. Remove at your own risks.
 check_min_version("0.18.0.dev0")
